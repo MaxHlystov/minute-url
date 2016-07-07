@@ -1,0 +1,28 @@
+{
+  "name": "minute-url",
+  "version": "1.0.0",
+  "description": "Shortener URL microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxHlystov/minute-url.git"
+  },
+  "keywords": [
+    "FreeCodeCamp"
+  ],
+  "author": "Khlystov Maksim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxHlystov/minute-url/issues"
+  },
+  "homepage": "https://github.com/MaxHlystov/minute-url#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.1.8",
+    "monk": "^3.0.3"
+  }
+}
